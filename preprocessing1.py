@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
 # Last update: 17/01/2020
 """
 Pre-processing program to extract window-related data from Netflow files
