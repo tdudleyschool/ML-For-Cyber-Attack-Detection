@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
+# Last update: 7/04/2023
 """
 Dimensionality reduction algorithms using PCA and t-SNE
 Parameters
@@ -97,11 +95,9 @@ print(clf.explained_variance_ratio_)
 y_plot = np.where(y_bin6 == True)[0]
 print(len(y_plot))
 
-# Randomly select negative class points for plotting
 y_plot2 = np.random.choice(np.where(y_bin6 == False)[0], size=len(y_plot) * 100, replace=False)
 print(len(y_plot2))
 
-# Combine the indices of positive and negative class points
 index = list(y_plot) + list(y_plot2)
 print(len(index))
 
