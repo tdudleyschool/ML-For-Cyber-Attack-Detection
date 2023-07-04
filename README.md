@@ -25,3 +25,6 @@ The project was performed on Google Collaborator. All Python modules were includ
 
 - `predict_logistic_regression.py` and `predict_statistic_analysis.py` are the two models Sukhraj choose to test the data sets on.
 
+- `predict_Neural_Network.py` creates a training model using a neural network
+  
+- `predict_Random_Forest.py` creates a training model using a random forest
