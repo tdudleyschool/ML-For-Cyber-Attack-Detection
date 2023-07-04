@@ -1,5 +1,5 @@
 # ML-For-Cyber-Attack-Detection
-_Author: Tafari Dudley, Michael Porter &_  
+_Author: Tafari Dudley, Michael Porter & Sukhraj Singh_  
 _Last update: 07/04/2023_  
 This project is related to code used for the Advanced Security project "__Cyber Attack Detection thanks to Machine Learning Algorithms__". This work has been carried out by Antoine Delplace, Sheryl Hermoso, and Kristofer Anandita.
 ## Perpose
@@ -21,5 +21,7 @@ The project was performed on Google Collaborator. All Python modules were includ
    
 - `dimensionality_reduction.py` try to decrease the number of features using embedded methods or dimensionality reduction techniques. Both PCA and t-SNE techniques are used to reduce dimensionality. PCA is a linear technique that captures global variance in the data, while t-SNE is a nonlinear technique that focuses on preserving local structures and clusters in the data.
 
-- `predict_Gradiant_Boosting_Algorithm_Analysis.py` Analysis the dataset with Gradiant Boosting. 
+- `predict_Gradiant_Boosting_Algorithm_Analysis.py` Analysis the dataset with Gradiant Boosting.
+
+- `predict_logistic_regression.py` and `predict_statistic_analysis.py` are the two models Sukhraj choose to test the data sets on.
 
