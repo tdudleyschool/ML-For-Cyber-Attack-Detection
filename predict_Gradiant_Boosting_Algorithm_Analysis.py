@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
+# Last update: 7/04/2023
 
 """
 Perform a statistical analysis of the Gradient Boosting classifier.
