@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# Author: Antoine DELPLACE
-# Last update: 17/01/2020
+# Author: Tafari Dudley
+# Last update: 7/4/2023
 """
 Use different embedded methods to extract relevant features :
 - Lasso and Ridge Logistic Regression
