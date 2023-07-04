@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# Author: Tafari Dudley
-# Last update: 7/4/2023
+# Last update: 7/04/2023
 """
 Use different embedded methods to extract relevant features :
 - Lasso and Ridge Logistic Regression
@@ -25,6 +23,7 @@ import h5py
 
 from sklearn import model_selection, feature_selection, linear_model, metrics
 
+# Read data from HDF5 files
 print("Import data")
 
 X = pd.read_hdf('data_window_botnet3.h5', key='data')
@@ -37,6 +36,7 @@ X = X.join(X2)
 
 X.drop('window_id', axis=1, inplace=True)
 
+# Loads in lables (value that will be predicted)
 y = X['Label_<lambda>']
 X.drop('Label_<lambda>', axis=1, inplace=True)
 
@@ -47,11 +47,13 @@ labels = np.load("data_window_botnet3_labels.npy", allow_pickle=True)
 print(X.columns.values)
 print(labels)
 
+# Split data into train and test sets
 y_bin6 = y==6
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y_bin6, test_size=0.33, random_state=123456)
 #y_train_bin6 = y_train==6
 #y_test_bin6 = y_test==6
 
+# Print label distributions
 print("y", np.unique(y, return_counts=True))
 print("y_train", np.unique(y_train, return_counts=True))
 print("y_test", np.unique(y_test, return_counts=True))
@@ -59,6 +61,7 @@ print("y_test", np.unique(y_test, return_counts=True))
 ## Embedded Method
 print("Logistic Regression")
 
+# Logistic Regression
 clf = linear_model.LogisticRegression(penalty='l2', C=1.0, random_state=123456, multi_class="auto", class_weight=None, solver="lbfgs", max_iter=1000, verbose=1)
 clf.fit(X_train, y_train)
 #print(clf.classes_)
