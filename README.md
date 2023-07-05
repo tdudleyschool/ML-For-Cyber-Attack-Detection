@@ -21,10 +21,23 @@ The project was performed on Google Collaborator. All Python modules were includ
    
 - `dimensionality_reduction.py` try to decrease the number of features using embedded methods or dimensionality reduction techniques. Both PCA and t-SNE techniques are used to reduce dimensionality. PCA is a linear technique that captures global variance in the data, while t-SNE is a nonlinear technique that focuses on preserving local structures and clusters in the data.
 
-- `predict_Gradiant_Boosting_Algorithm_Analysis.py` Analysis the dataset with Gradiant Boosting.
-
-- `predict_logistic_regression.py` and `predict_statistic_analysis.py` are the two models Sukhraj choose to test the data sets on.
+- `predict_Gradiant_Boosting_Algorithm_Analysis.py` Analysis of the dataset with Gradiant Boosting.
+  
+- `predict_Support_Vector_Machine_Analysis.py` Analyses the dataset using Support Vector Machine
+  
+- `predict_logistic_regression.py` and `predict_statistic_analysis.py` are the two models Sukhraj chose to test the data sets on.
 
 - `predict_Neural_Network.py` creates a training model using a neural network
   
 - `predict_Random_Forest.py` creates a training model using a random forest
+## Results
+The algorithms were analyzed based on precision, recall, and f1 score. Precision measures the proportion of correctly predicted positive instances out of all the cases predicted as positive. It measures the amount of correctly classified botnets in comparison to misclassified ones. Recall measures the proportion of correctly predicted positive instances out of all actual positive instances. It will show the amount of correctly predicted botnets compared to every botnet in the system. Finally, f1 score is a combination of both making it the most reliable metric.
+
+- The Gradient Boosting algorithm had a precision of 0.925, a recall of 0.649, and a fbeta score of 0.727.
+- The Support Vector Machine had a precision of 0.949, a recall of 0.925, and 0.937
+
+Note: The reference paper shows that each algorithm were less accurate for the smaller datasets, such as the one used here. 
+
+## References
+1. A. Delplace, S. Hermoso and K. Anandita. "Cyber Attack Detection thanks to Machine Learning Algorithms", _Advanced Security Report at the University of Queensland_, May 2019. [arXiv:2001.06309](https://arxiv.org/abs/2001.06309)
+
