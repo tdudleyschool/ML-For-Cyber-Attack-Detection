@@ -14,6 +14,7 @@ The project was performed on Google Collaborator. All Python modules were includ
 - h5py
 - Matplotlib
 - Scikit-learn
+- Tensorflow 1.14 -- `predict_Neural_Network.py`
 ### File Descriptions
 - `preprocessing1.py` and `preprocessing2.py` are the files used to synthesize data from the Netflow files in a usable format. It achieves this by performing specific tasks such as data importation, data transformation, feature extraction, normalization, and saving the processed data for further analysis or modeling.
 
