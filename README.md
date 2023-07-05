@@ -38,8 +38,8 @@ The algorithms were analyzed based on precision, recall, and f1 score. Precision
 - The Support Vector Machine algorithm had a precision of 0.949, a recall of 0.925, and an F-beta score of 0.937
 - The Neural Network algorithm had a precision of 0.87, a recall of 0.49, and an F-beta score of 0.64.
 - The Random Forest algorithm had a precision of 1.0, a recall of 1.0, and an F-beta score of 1.0. **Random Forest was shown to be the best algorithm in both the original paper and our observations.**
-- The statistic analysis F-beta score was 0.70.
-- The logistic regression F-beta score was 0.42. Similar to the original analysis performed in the reference paper, this algorithm performed the worst.
+- The statistic analysis algorithm had a precision of 1.0, a recall of 0.57, and an F-beta score was 0.70.
+- The logistic regression algorithm had a precision of 0.32, a recall of 0.72, and an F-beta score was 0.42. Similar to the original analysis performed in the reference paper, this algorithm performed the worst.
 
 Note: The reference paper shows that each algorithm was less accurate for the smaller datasets, such as the one used here. 
 
