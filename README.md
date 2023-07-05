@@ -24,13 +24,13 @@ The project was performed on Google Collaborator. All Python modules were includ
 
 - `predict_Gradiant_Boosting_Algorithm_Analysis.py` Analysis of the dataset with Gradiant Boosting.
   
-- `predict_Support_Vector_Machine_Analysis.py` Analyses the dataset using Support Vector Machine
+- `predict_Support_Vector_Machine_Analysis.py` Analyses the dataset using Support Vector Machine.
   
 - `predict_logistic_regression.py` and `predict_statistic_analysis.py` are the two models Sukhraj chose to test the data sets on.
 
-- `predict_Neural_Network.py` creates a training model using a neural network
+- `predict_Neural_Network.py` creates a training model using a neural network.
   
-- `predict_Random_Forest.py` creates a training model using a random forest
+- `predict_Random_Forest.py` creates a training model using a random forest.
 ## Results
 The algorithms were analyzed based on precision, recall, and f1 score. Precision measures the proportion of correctly predicted positive instances out of all the cases predicted as positive. It measures the amount of correctly classified botnets in comparison to misclassified ones. Recall measures the proportion of correctly predicted positive instances out of all positive instances. It will show the amount of correctly predicted botnets compared to every botnet in the system. Finally, the f1 score is a combination of both, making it the most reliable metric.
 
@@ -38,8 +38,8 @@ The algorithms were analyzed based on precision, recall, and f1 score. Precision
 - The Support Vector Machine algorithm had a precision of 0.949, a recall of 0.925, and an F-beta score of 0.937
 - The Neural Network algorithm had a precision of 0.87, a recall of 0.49, and an F-beta score of 0.64.
 - The Random Forest algorithm had a precision of 1.0, a recall of 1.0, and an F-beta score of 1.0. **Random Forest was shown to be the best algorithm in both the original paper and our observations.**
-- The statistic analysis F-beta score was 0.70
-- The logistic regression F-beta score was 0.42. Similar to the original analysis in the reference paper, this algorithm performed the worst.
+- The statistic analysis F-beta score was 0.70.
+- The logistic regression F-beta score was 0.42. Similar to the original analysis performed in the reference paper, this algorithm performed the worst.
 
 Note: The reference paper shows that each algorithm was less accurate for the smaller datasets, such as the one used here. 
 
